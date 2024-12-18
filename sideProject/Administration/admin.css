@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Roboto&family=Spinnaker&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none;
+    line-height: 1.2;
+}
+
+:root {
+    --first-color: #26E05B;
+    --second-color: #FFF;
+    --gradient-color: linear-gradient(#FFF, #26E05B);
+    --font-principal: 'Roboto', sans-serif;
+    --secondary-font: 'Spinnaker', sans-serif;
+    --color-font: #E1E6F0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+
+.directeur {
+    color: var(--second-color);
+    padding: 16px;
+    margin: 16px 16px 150px;
+    background-color: var(--first-color);
+    display: flex;
+    flex-direction: row;
+}
+.directeur img {
+    height: 300px;
+    width: 50%;
+}
+.directeur-body {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+    padding: 0 0 0 24px;
+}
+.directeur-body h1 {
+    padding: 16px 0 24px 0;
+    font-family: 'Roboto', 'sans-serif';
+}
+.directeur-body p {
+    font-family: 'Spinnaker', sans-serif;
+    width: 60%;
+}
+
+
+
+
+#admin {
+    padding: 70px 16px;
+    background-color: var(--second-color);
+    color: var(--first-color);
+}
+
+#admin h2 {
+    text-align: center;
+    padding-bottom: 40px;
+    font-family: 'Roboto', 'sans-serif';
+}
+
+#admin h3 {
+    font-family: 'Roboto', 'sans-serif';
+}
+
+#admin p {
+    font-family: 'Spinnaker', sans-serif;
+}
+
+#admin .teachers {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#admin .teachers img {
+    height: 200px;
+    width: 200px;
+}
+
+.clased {
+    padding-top: 40px;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+
+    .directeur-body p {
+        font-family: 'Spinnaker', sans-serif;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 657px) {
+
+   .directeur {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .directeur img {
+        height: auto;
+        width: 100%;
+    }
+}

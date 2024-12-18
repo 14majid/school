@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none;
+    line-height: 1.2;
+}
+
+:root {
+    --first-color: #00367D;
+    --second-color: #FDD7A9;
+    --gradient-color: linear-gradient(#FDD7A9,#00367D);
+    --font-principal: 'Roboto', sans-serif;
+    --secondary-font: 'Spinnaker', sans-serif;
+    --color-font: #E1E6F0;
+}
+
+#info {
+    text-align: center;
+    width: 100%;
+    background-color: var(--second-color);
+    color: var(--first-color);
+    padding: 240px 0;
+}
+
+#info h1, #info p {
+    padding: 0;
+    opacity: 0.5;
+}
