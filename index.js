@@ -95,3 +95,9 @@ year.innerHTML = date
 
 
 mySlide(currentindex)
+
+
+document.querySelector('.arow-hight a').addEventListener('click', (e) => {
+e.preventDefault();
+document.querySelector('#navbar').scrollIntoView({ behavior: 'smooth' });
+});

@@ -1,10 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo&family=Roboto&family=Spinnaker&display=swap');
 
-:root {
+/* :root {
     --first-color: #26E05B;
-    /* --first-color: blue; */
+    /* --first-color: blue;
     --second-color: #fff;
     --gradient-color: linear-gradient(#FFF, #26E05B);
+    --font-principal: 'Roboto', sans-serif;
+    --secondary-font: 'Spinnaker', sans-serif;
+    --color-font: #E1E6F0;
+} */
+
+:root {
+    --first-color: #047857;
+    /* --first-color: blue; */
+    --second-color: #F9FAFB;
+    --gradient-color: linear-gradient(#F9FAFB, #047857);
     --font-principal: 'Roboto', sans-serif;
     --secondary-font: 'Spinnaker', sans-serif;
     --color-font: #E1E6F0;
@@ -517,8 +527,8 @@ footer {
 
 footer img {
     align-self: center;
-    height: 150px;
-    width: 300px;
+    height: 180px;
+    width: 220px;
 }
 
 #footer {
@@ -739,6 +749,26 @@ footer img {
         flex-wrap: wrap;
     }
 
+    #contact {
+        flex-direction: column;
+        padding: 64px 16px;
+    }
+
+    #contact .first-contact {
+        width: 100%;
+        margin-bottom: 32px;
+        max-height: 400px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #contact .second-contact {
+    width: 100%;
+    height: 90%;
+    padding: 104px 24px ;
+}
+
     input {
         width: 100%;
     }
@@ -770,6 +800,7 @@ footer img {
 
     #contact .first-contact {
         width: 100%;
+        text-align: center;
         padding-bottom: 20px;
         display: flex;
         flex-direction: row;
