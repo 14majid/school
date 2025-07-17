@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="info.css">
     <link rel="stylesheet" href="../../style.css">
 
-    <link rel="icon" type="image/png" sizes="32x32" href="../../logo2.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../photo.png">
 
        <!-- FONT AWESOME -->
        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -19,7 +19,7 @@
 <body>
     <nav id="navbar">
         <div class="logo">
-            <img id="logo-img" src="../../logo2.png" alt="Logo">
+            <img id="logo-img" src="../../logo7.webp"alt="Logo">
             <hr>
             <h4> <a href="../../index.html">Ecole Imam Moussa Touré</a></h4>
         </div>
@@ -29,15 +29,57 @@
             <li><a href="../about/about.html">About</a></li>
             <li><a href="../Administration/admin.html">Administration</a></li>
             <li><a href="../classe/classe.html">Classes</a></li>
-            <li><a href="info.html">info</a></li>
+            <li><a href="contact.html">contact</a></li>
         </ul>
         <div class="bars"><i class="fa-solid fa-bars"></i></div>
     </nav>
 
-    <header id="info">
-        <h1>Désolé</h1>
-        <p>Il n'y a pas encore d'info</p>
-    </header>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3857.871136237644!2d-17.372622585458366!3d14.776287597924915!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xec10b79dba15c05%3A0xda1863e344532eaa!2sMarch%C3%A9%20Bou%20Bess%20GUEDIAWAYE!5e0!3m2!1sfr!2ssn!4v1752757932915!5m2!1sfr!2ssn"
+        width="100%"
+        height="400px"
+        style="border: 0"
+        allowFullScreen="true"
+        loading="lazy"
+        referrerPolicy="no-referrer-when-downgrade"
+        title="School Location"
+    ></iframe>
+
+    <div id="contact">
+        <div class="first-contact">
+            <div>
+                <h4><i class='bx bx-envelope'></i>Adresse E-mail</h4>
+                <p>dialloschool@school.com</p>
+            </div>
+
+            <div>
+                <h4><i class='bx bx-phone'></i>Telephone</h4>
+                <p>788 604 31 79</p>
+                <p>77 179 96 62</p>
+            </div>
+
+            <div>
+                <h4><i class='bx bx-map'></i>Adresse</h4>
+                <p>QJHG+H7G, Dakar</p>
+                <p>Wakhinane 4 Guediawaye</p>
+            </div>
+        </div>
+
+        <div class="second-contact">
+            <form action="fly">
+                <input type="text" name="fname" id="fname" placeholder="First Name">
+
+                <input type="text" name="lname" id="lname" placeholder="Last Name">
+
+                <input type="tel" name="tel" id="tel" placeholder="Telephone">
+
+                <input type="email" name="email" id="email" placeholder="E-mail">
+
+                <textarea name="textarea" id="textarea" cols="50" rows="6" placeholder="Message"></textarea>
+            </form>
+            <button class="form-button" type="button">Send Message  <i class="fa-regular fa-paper-plane"></i></button>
+        </div>
+    </div>
 
 
     <footer>
